@@ -5,8 +5,8 @@ import { apiGet, apiPatch, paths } from "../../lib/api.js";
 
 const HOUSING_COLORS = {
   scientia: "border-blue-400 bg-blue-50 dark:bg-blue-950/40",
-  clipa: "border-emerald-400 bg-emerald-50 dark:bg-emerald-950/40",
-  ventura: "border-amber-400 bg-amber-50 dark:bg-amber-950/40",
+  clipa: "border-amber-400 bg-emerald-50 dark:bg-emerald-950/40",
+  ventura: "border-emerald-400 bg-amber-50 dark:bg-amber-950/40",
 };
 
 const QUICK_AMOUNTS = [10, 50, 150];
