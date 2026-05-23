@@ -9,7 +9,7 @@ const HOUSING_COLORS = {
   ventura: "border-amber-400 bg-amber-50 dark:bg-amber-950/40",
 };
 
-const QUICK_AMOUNTS = [1, 5, 10];
+const QUICK_AMOUNTS = [1, 50, 150];
 
 export function AdminHousingPage() {
   const { isAuthenticated, isAdmin, sessionLoading } = useUser();
